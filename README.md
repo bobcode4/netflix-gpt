@@ -16,6 +16,19 @@
     - useNavigate()
     - SignOut
     - Auth & Update Profile
+    - Bug fix:  of SignOut display in both login and browse page
+    - Bug fix:  of navigation 
+    - unSubscribe when component unMounts
+    - Register at tmdb.org
+    - get data from tmdb api
+    - custom Hook for now playing movies
+    - create movie slice
+    - update store
+    - fetch data for trailer video
+    - update store with trailer video data
+    - embedded the YT Video
+    - make it autoplay and mute
+
 
 
 # Features
