@@ -28,6 +28,9 @@
     - update store with trailer video data
     - embedded the YT Video
     - make it autoplay and mute
+    - secondary container
+    - movies category & list
+    - movie cards
 
 
 
