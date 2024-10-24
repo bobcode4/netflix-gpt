@@ -31,6 +31,9 @@
     - secondary container
     - movies category & list
     - movie cards
+    - GPT Search Page
+    - GPT Search Bar
+    - Multi language support in GPT Search Page
 
 
 

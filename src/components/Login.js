@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BG_IMG } from "../utils/constants";
 
 
 const Login = () => {
@@ -65,9 +66,8 @@ const Login = () => {
     <div>
         <Header />
         <div className="absolute">
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/US-en-20241014-TRIFECTA-perspective_9740753d-8799-4571-b1c4-45d40f5f5a72_large.jpg"
+        <img src={BG_IMG}
         alt="bg-img"
-        className=""
         />
         </div>
         <form className="absolute w-3/12 p-12 my-24 mx-auto right-0 left-0 text-white bg-black bg-opacity-80"
